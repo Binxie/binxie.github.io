@@ -701,7 +701,7 @@ banner
 */
 
 .swiper-container {
-  height: calc(100vh - 0px);
+  height: calc(100vh + 170px);
   margin: 0px;
   background-color: #212741;
 }
@@ -1821,7 +1821,7 @@ body {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 10000; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 0px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -1837,7 +1837,7 @@ body {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 90%;
 }
 
 
