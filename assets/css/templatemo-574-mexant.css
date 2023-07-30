@@ -97,6 +97,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #212741;
+  
+  
 }
 
 ul {
@@ -126,12 +128,12 @@ body {
 }
 
 ::selection {
-  background: #d4af37;
+  background: #DCA950;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #d4af37;
+  background: #DCA950;
   color: #fff;
 }
 
@@ -171,7 +173,7 @@ body {
 .orange-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #d4af37;
+  background-color: #DCA950;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -201,7 +203,7 @@ section {
 .section-heading h6 {
   font-size: 26px;
   text-transform: uppercase;
-  color: #d4af37;
+  color: #DCA950;
   font-weight: 700;
 }
 
@@ -217,7 +219,7 @@ section {
 .section-heading h4::after {
     display: block;
     content: "";
-    border-bottom: 3px solid #d4af37;
+    border-bottom: 3px solid #DCA950;
     width: 101px;
     max-width: 100%;
     margin-top: 20px;
@@ -365,13 +367,13 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #d4af37;
-  border-bottom:2px solid #d4af37;
+  color: #DCA950;
+  border-bottom:2px solid #DCA950;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #d4af37;
+  color: #DCA950;
   opacity: 1;
 }
 
@@ -431,7 +433,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #d4af37!important;
+  color: #DCA950!important;
   padding-left: 25px;
 }
 
@@ -571,7 +573,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #d4af37;
+  color: #DCA950;
 }
 
 @media (max-width: 1200px) {
@@ -590,7 +592,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #d4af37!important;
+    color: #DCA950!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -652,7 +654,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #d4af37!important;
+    color: #DCA950!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -788,7 +790,7 @@ banner
 
 .slide-inner .header-text h2 em {
   font-style: normal;
-  color: #d4af37;
+  color: #DCA950;
 }
 
 .slide-inner .header-text .buttons {
@@ -878,7 +880,7 @@ section.simple-cta h4 em {
 }
 
 section.simple-cta h4 strong {
-  color: #d4af37;
+  color: #DCA950;
   font-weight: 700;
 }
 
@@ -889,7 +891,7 @@ section.simple-cta p {
   margin-bottom: 10px;
 }
 section.simple-cta p em{
-  color: #d4af37;
+  color: #DCA950;
   font-weight: 700;
 }
 
@@ -944,7 +946,7 @@ section.about-us .naccs .menu div {
 }
 
 section.about-us .naccs .menu div.active {
-  color: #d4af37;
+  color: #DCA950;
 }
 
 section.about-us ul.nacc {
@@ -1076,7 +1078,7 @@ section.calculator .section-heading h4 {
 #calculate button.orange-button {
   font-size: 14px;
   color: #fff;
-  background-color: #d4af37;
+  background-color: #DCA950;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1176,7 +1178,7 @@ section.testimonials .section-heading {
 }
 
 .testimonials .owl-dots .active {
-  background-color: #d4af37;
+  background-color: #DCA950;
 }
 
 
@@ -1222,7 +1224,7 @@ footer p {
 }
 
 footer p a {
-  color: #d4af37;
+  color: #DCA950;
 }
 
 
@@ -1352,7 +1354,7 @@ section.what-we-do {
   position: absolute;
   font-style: normal;
   font-size: 40px;
-  color: #d4af37;
+  color: #DCA950;
   font-weight: 600;
   left: 20px;
   top: 10px;
@@ -1462,7 +1464,7 @@ section.service-details .naccs .menu div {
 }
 
 section.service-details .naccs .menu div.active {
-  color: #d4af37;
+  color: #DCA950;
 }
 
 section.service-details ul.nacc {
@@ -1590,7 +1592,7 @@ section.map .info-item a {
 }
 
 section.map .info-item a:hover {
-  color: #d4af37;
+  color: #DCA950;
 }
 
 #contact input {
@@ -1628,7 +1630,7 @@ section.map .info-item a:hover {
 #contact button.orange-button {
   font-size: 14px;
   color: #fff;
-  background-color: #d4af37;
+  background-color: #DCA950;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1794,7 +1796,7 @@ body {
 .gold-button  {
   font-size: 16px;
   color: #fff;
-  background-color: #d4af37;
+  background-color: #DCA950;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1821,7 +1823,7 @@ body {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 10000; /* Sit on top */
-  padding-top: 0px; /* Location of the box */
+  padding-top: 130px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -1829,6 +1831,7 @@ body {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  font-size:13px;
 }
 
 /* Modal Content */
@@ -1838,6 +1841,7 @@ body {
   padding: 20px;
   border: 1px solid #888;
   width: 90%;
+  
 }
 
 
