@@ -36,10 +36,10 @@ https://templatemo.com/tm-574-mexant
   <header class="header-area header-sticky">
       <div class="container">
           <div class="row">
-              <div class="col-12" style="height:400px;">
+              <div class="col-12" style="height:200px;">
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
-                      <a href="index.html" class="logo" style="height:400px;">
+                      <a href="index.html" class="logo" style="height:200px;">
                           <img src="assets/images/logo.png" alt="">
                       </a>
                       <!-- ***** Logo End ***** -->
@@ -132,9 +132,13 @@ https://templatemo.com/tm-574-mexant
         <div class="col-lg-6">
           <div class="section-heading">
             <!--<h6>Contact Us</h6>-->
-            <h4 >Feel free to message us</h4>
+            <h4 >Message us</h4>
           </div>
         </div>
+		 <div class="alert" id="alertBanner">
+	  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+	  Thank you for your message, we will get in touch with you shortly.
+	</div>
         <div class="col-lg-12">
           <form id="contact" action="">
             <div class="row">
@@ -165,7 +169,7 @@ https://templatemo.com/tm-574-mexant
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button" onclick="sendEmail()">Send Message</button>
+                  <button type="submit" id="form-submit" class="orange-button" onclick="sendEmail();return false;">Send Message</button>
                 </fieldset>
               </div>
             </div>
@@ -221,10 +225,7 @@ https://templatemo.com/tm-574-mexant
       </div>
     </div>
   </footer>
-  <div class="alert" id="alertBanner">
-	  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-	  Thank you for your message, we will get in touch with you shortly.
-	</div>
+ 
   <!-- Scripts -->
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
   <!-- Bootstrap core JavaScript -->
@@ -244,6 +245,7 @@ https://templatemo.com/tm-574-mexant
 		var emailAddress = document.getElementById("email").value;
 		var subject = document.getElementById("subject").value;
 		var message = document.getElementById("message").value;
+		var banner = document.getElementById("alertBanner");
 		var Info = "Name: " + name + " <br><br>Phone: " + phone + " <br><br>Email: " + emailAddress + " <br><br>Message: " + message;
 	    /// alert(Info);
 		if (name.trim() != "" && phone.trim() != "" && emailAddress.trim() != "" && subject.trim() != "" && message.trim() != "")
@@ -253,15 +255,17 @@ https://templatemo.com/tm-574-mexant
 				 Host : "smtp.elasticemail.com",
 				 Username : "benb98291@gmail.com", 
 				 Password : "7F8817C538311234A0E583CBE059440012D6", 
-				 To : 'xbcls@hotmail.com', 
+				 To : 'investor@stepcapital.com', 
 				 From : "benb98291@gmail.com", 
 				 Subject : subject, 
 				 Body : Info 
 			 }).then( 
-				message => alert(message) 
+				//message => alert(message) 
 			 ); 
 			 
 			 //alert("Thank you for your message, we will get in touch with you shortly.");
+			 
+			 banner.style.display = "block";
 		}
     }
 	
